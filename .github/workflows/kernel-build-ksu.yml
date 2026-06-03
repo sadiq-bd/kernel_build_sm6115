@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        uses: frstprjkt/kernel_build_action@main
+        uses: frstprjkt/kernel_action@main
         with:
           kernel-url: https://github.com/frstprjkt/qcom_sm6115
           kernel-branch: su/android13
